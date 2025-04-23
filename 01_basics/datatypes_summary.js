@@ -43,3 +43,13 @@ console.log(typeof anotherId);      //Symbol
 // useful links
 // https://262.ecma-international.org/5.1/#sec-11.4.3
 
+
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive), Heap (Non-Primitive)
+/*
+    in stack memory we will get a copy of declared variables ✅
+    
+    and from Heap memory we would get reference of that variable ✅
+*/
