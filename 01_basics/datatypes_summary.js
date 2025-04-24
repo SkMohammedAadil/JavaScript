@@ -51,5 +51,25 @@ console.log(typeof anotherId);      //Symbol
 /*
     in stack memory we will get a copy of declared variables ✅
     
-    and from Heap memory we would get reference of that variable ✅
+    and from Heap memory we would get reference of the original variable ✅
 */
+
+let name = "skmohammedaadil"
+
+let anothername = name
+anothername = "pratika"
+
+console.log(name);
+console.log(anothername);
+
+let userOne = {
+    email: "user@gmail.com",
+    upi: "user@ibl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "aadil@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
