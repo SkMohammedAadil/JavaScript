@@ -48,5 +48,37 @@ function loginMessage(username = "Sam"){
 }
 
 //console.log((loginMessage("Aadil")));     // if we leave the argument empty it will return (undefined)
-console.log((loginMessage()));
+//console.log((loginMessage()));
 
+function addCartPrice(...num1) {        // ... is the REST operator
+    return num1
+}
+
+//console.log(addCartPrice(20, 300, 500));
+
+const user = {
+    username: "aadil",
+    prices: 299
+}
+
+function handleObject(anyobject) {
+    //console.log(`username is ${anyobject.username} and price is ${anyobject.price}`);
+    
+}
+
+//handleObject(user)
+handleObject({
+    username: "Sam",
+    price: 499
+}
+
+)
+
+const newArray = [200, 400, 600, 800]
+
+function returnSecondValue(getArray){
+    return getArray[3]
+}
+
+//console.log(returnSecondValue(newArray));
+console.log(returnSecondValue([200, 400, 600, 800, 1000]));
