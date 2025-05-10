@@ -35,12 +35,15 @@ const mic = () => {
 
 //mic ()
 
-// const addTwo = (num1, num2) => {                    //Explicit RETURN
+// const addTwo = (num1, num2) => {                    //Explicit RETURN (when we use return)
 //     return num1 + num2
 // }
 
 //const addTwo = (num1, num2) => num1 + num2          // implicit RETURN
 
-const addTwo = (num1, num2) => num1 + num2 
+//const addTwo = (num1, num2) => ( num1 + num2 )          //this technique is used in REACT
 
+const addTwo = (num1, num2) => ({username: "Aadil "})         //to get the Object at return we have to use parenthesis{}
 console.log((addTwo(10, 20)));
+
+
