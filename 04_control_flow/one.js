@@ -32,9 +32,18 @@ if (balance < 200) {
     //console.log("out of money");
 }
 
-const userLogedIn = true
+const userLoggedIn = true
 const debitCard = true
+let loggedInFromGoogle = false
+let loggedInFromEmail = true
 
-if (condition) {
+if (userLoggedIn && debitCard) {
+    console.log("Allow to buy");
+}
+
+if (loggedInFromGoogle || loggedInFromEmail) {
+    console.log("User Logged In sucessfully")
+} else {
+    console.log("incorrect credentials");
     
 }
